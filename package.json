@@ -1,0 +1,50 @@
+{
+  "name": "bageriet",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.31",
+    "@fortawesome/free-solid-svg-icons": "^5.15.0",
+    "@fortawesome/react-fontawesome": "^0.1.11",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.5.0",
+    "@testing-library/user-event": "^7.2.1",
+    "axios": "^0.20.0",
+    "bootstrap": "^4.5.2",
+    "dayjs": "^1.9.0",
+    "html-react-parser": "^0.14.0",
+    "jquery": "^3.5.1",
+    "node-sass": "^4.14.1",
+    "react": "^16.13.1",
+    "react-bootstrap": "^1.3.0",
+    "react-dayjs": "^0.1.6",
+    "react-dom": "^16.13.1",
+    "react-flip-move": "^3.0.4",
+    "react-icons": "^3.11.0",
+    "react-images-upload": "^1.2.8",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "3.4.3",
+    "scss": "^0.2.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

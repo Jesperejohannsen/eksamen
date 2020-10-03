@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Open+Sans:wght@300;400;600&display=swap');
+
+
+/* Her ændrer vi Navbar sektionen */
+.navbar-light {
+  background-color: #567289!important;
+}
+
+.navbar{
+  padding-left: 200px;
+}
+
+/* Her ændre vi news img */
+.rounded-circle {
+  height: 150px;
+  width: 150px;
+}
+
+/* Her ændrer vi baggrundsbilledet */
+
+.bg-img{
+  background-image: url(./components/Images/newsletterbg.jpg);
+  background-repeat: no-repeat, repeat;
+  background-position: center;
+  background-size: auto;
+  height: 300px;
+  width: 100%;
+}
+
+.productimg {
+  shape-outside: ellipse(100px 200px at 50% 50%);
+  width: 23%;
+  height: 100%;
+  float: left;
+  opacity: 1.0;
+}
+
+/* Her ændrer vi på vore carousel som vi har importeret som et tredjeparts sprog */
+.carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+.carousel-caption {
+  bottom: 250px;
+}
+.carousel-caption h2 {
+  font-size: 80px;
+}
+
+
+.card-img-top {
+  height: 300px;
+}
+
+.tekst {
+  margin-left: 8rem !important;
+}
+
+/* Her ændrer vi på bageriet  */
+.logo {
+  font-family: 'Lobster', cursive;
+}
+
+/* Her ændrer vi på hele hjemmesiden */
+* {
+  box-sizing: border-box;
+}
+
+/* Her ændrer vi på hele bodyen, og ændrer skrifttyperne til OpenSans som vi har importerte fra vores googlefonts ovenstående */
+body {
+  margin: 0;
+  font-family: 'OpenSans';
+}
+
+
+/* Newsletter */
+
+
+.newsletter {
+  padding: 80px 0;
+}
+  
+.newsletter .content {
+  max-width: 850px;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+  z-index: 2;
+ }
+
+.newsletter .content h2 {
+  color: #243c4f;
+  margin-bottom: 40px; 
+}
+
+.newsletter .content .form-control {
+  height: 50px;
+  border-color: #ffffff;
+  border-radius:0;
+}
+
+.newsletter .content.form-control:focus {
+  box-shadow: none;
+  border: 2px solid #243c4f;
+}
+
+.newsletter .content .btn {
+  min-height: 50px; 
+  border-radius:0;
+  background: #567289;
+  color: #fff;
+  font-weight:600;
+  font-size: 9; 
+  }
+
+  /* NEWSLETTER ENDS */
+
+  .soeg img {
+
+    height: 150px;
+    width: 150px;
+  }
+  
+  .input-group-text {
+    color: #fff;
+    background-color: #b7c9d6;
+    border-radius: 0;
+    border: none;
+  }
+
+/* Kontakt siden css */
+
+/* BUTTONS */
+  .contactbutton {
+
+    min-height: 50px;
+    border-radius: 0;
+    background: #567289;
+    color: #fff;
+    font-weight: 600;
+    margin-left: 78%;
+  }
+
+  .searchbutton {
+    min-height: 30px;
+    border-radius: 0;
+    background: #b7c9d6;
+    color: #fff;
+    font-weight: 600;
+  }
+
+  /* BUTTONS ENS */
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
